@@ -15,7 +15,8 @@ import { ComponentsModule } from 'src/app/components/components.module';
     FormsModule,
     IonicModule,
     ComponentsModule,
-    CreateSlotPageRoutingModule
+    CreateSlotPageRoutingModule,
+    
   ],
   declarations: [CreateSlotPage]
 })
