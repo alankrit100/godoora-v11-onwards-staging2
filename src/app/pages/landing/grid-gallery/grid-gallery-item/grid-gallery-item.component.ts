@@ -1,6 +1,7 @@
 import {Component, ElementRef, HostListener, Input, ViewChild} from '@angular/core';
 import {Image} from "../image.model";
-import { RouterModule } from '@angular/router';
+import {  RouterModule } from '@angular/router';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,7 +9,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-grid-gallery-item',
   templateUrl: './grid-gallery-item.component.html',
   styleUrls: ['./grid-gallery-item.component.scss'],
-  imports: [RouterModule, CommonModule]
+  imports: [RouterModule, MatGridListModule, CommonModule]
 })
 export class GridGalleryItemComponent {
 

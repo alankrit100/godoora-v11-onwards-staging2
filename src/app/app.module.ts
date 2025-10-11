@@ -30,7 +30,8 @@ import { SharedModule } from './shared.module';
         MenuPage,
         
         ComingSoonComponent,
-        OffSeasonComponent
+        OffSeasonComponent,
+        
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         BrowserAnimationsModule,

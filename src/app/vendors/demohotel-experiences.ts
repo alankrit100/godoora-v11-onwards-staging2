@@ -1,5 +1,5 @@
 export const demohotelExperiences = {
-        'demohotel-experiences-staging.goyaana.com': [
+        'localhost:4200': [
         {
             branch: 'Mumbai',
             branchImg: 'https://ourtourplannerpublic.s3-ap-southeast-1.amazonaws.com/BranchImages/dem.jpg',
