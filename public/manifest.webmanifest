@@ -1,11 +1,12 @@
 {
-  "name": "app",
-  "short_name": "app",
+  "id": "/landing",
+  "name": "TripExperience",
+  "short_name": "TripExperience",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "https://www.demohotel-experiences.goyaana.com/",
-  "start_url": "https://www.demohotel-experiences.goyaana.com/",
+  "scope": "/",
+  "start_url": "/landing",
   "icons": [
     {
       "src": "icons/icon-72x72.png",

@@ -37,11 +37,11 @@ export class AppComponent implements AfterViewInit {
     // });
   }
 
-  setManifestFile() {
+ /* setManifestFile() {
     if(this.vendorDetail) {
       document.querySelector('#my-manifest-placeholder') ? (document.querySelector('#my-manifest-placeholder')['href'] = environment.serverUrl + 'scheduling/manifestfile?categoryId=' + this.vendorDetail.idCategory) : '';
     }
-  }
+  }  */
 
   ngOnInit(){
     const branchName = this.activatedRoute.snapshot.paramMap.get('branchName')
@@ -82,7 +82,7 @@ export class AppComponent implements AfterViewInit {
         this.vendorDetail = branchList[branchList.length - 1];
       }
       this.appService.setVendorDetail(this.vendorDetail);
-      this.setManifestFile();
+      // this.setManifestFile();
       this.appendGaTrackingCode();
       this.dataSrc = this.vendorDetail ? this.vendorDetail.theme : '';
       const htmlTag = document.getElementsByTagName('html');
